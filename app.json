@@ -1,0 +1,8 @@
+{
+    "name": "Invidious",
+    "description": "Invidious",
+    "repository": "https://github.dev/Spacc-Inc/invidious",
+    "logo": "https://raw.githubusercontent.com/Spacc-Inc/invidious/master/assets/ms-icon-150x150.png",
+    "stack": "container"
+  }
+  
