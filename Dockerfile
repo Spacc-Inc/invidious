@@ -13,7 +13,7 @@ COPY --from=quay.io/invidious/lsquic-compiled /root/liblsquic.a ./lib/lsquic/src
 COPY ./src/ ./src/
 # TODO: .git folder is required for building – this is destructive.
 # See definition of CURRENT_BRANCH, CURRENT_COMMIT and CURRENT_VERSION.
-#COPY ./.git/ ./.git/
+COPY ./.gitdir/ ./.git/
 
 # Required for fetching player dependencies
 COPY ./scripts/ ./scripts/
